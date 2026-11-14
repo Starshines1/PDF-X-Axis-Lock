@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "PDF X-Axis Lock",
+  "version": "1.0.7",
+  "description": "Freeze horizontal PDF movement without scrollLeft snap-back while preserving vertical scrolling and native text selection.",
+  "author": "PDF X-Axis Lock contributors",
+  "homepage_url": "https://github.com/Starshines1/PDF-X-Axis-Lock",
+  "applications": {
+    "zotero": {
+      "id": "pdf-x-axis-lock@chatgpt.local",
+      "update_url": "https://raw.githubusercontent.com/Starshines1/PDF-X-Axis-Lock/main/dist/updates.json",
+      "strict_min_version": "10.0.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}
