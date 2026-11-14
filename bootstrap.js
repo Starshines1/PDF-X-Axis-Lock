@@ -288,7 +288,7 @@ function createState(reader) {
   activeStates.add(state);
 
   // Clean up when the reader shell is closed.
-  const shellWindow = reader?._iframeWindow,
+  const shellWindow = reader?._iframeWindow;
   if (shellWindow && typeof shellWindow.addEventListener === "function") {
     shellWindow.addEventListener("unload", () => {
       disableLock(state);
