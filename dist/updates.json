@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "pdf-x-axis-lock@chatgpt.local": {
+      "updates": [
+        {
+          "version": "1.0.7",
+          "update_link": "https://raw.githubusercontent.com/Starshines1/PDF-X-Axis-Lock/main/dist/PDF-X-Axis-Lock-1.0.7.xpi",
+          "update_hash": "sha256:a1ec9837d5bc2e2fdd4435b3a6272b2b147a8e3412c918f27da14c5614c3ddf7",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
